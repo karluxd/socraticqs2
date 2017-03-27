@@ -48,7 +48,7 @@
           var sidebarSelector = $(this).attr('href');
 
           $(this).toggleClass('hamburger--active');
-          $(sidebarSelector).fadeToggle();
+          $(sidebarSelector).stop().fadeToggle();
         });
       });
     </script>
